@@ -1,0 +1,11 @@
+Есть ли персонаж Pikachu
+character('Pikachu').
+
+Вывести всех персонажей
+character(Character).
+
+Найти персонажа, чем пол мужской и у него есть способность равная 10 и это не скорость
+character_gender(Character, male), character_abilities(Character, _ , 10), \+ character_abilities(Character, fast, _).
+
+Вывести сумму характеристик самого сильного бойца и самого быстрого персонажа
+best_fighter(Character1), characters_total_points_powerful(Character1, TotalPoints1), fastest_character(Character2), characters_total_points_powerful(Character2, TotalPoints2).

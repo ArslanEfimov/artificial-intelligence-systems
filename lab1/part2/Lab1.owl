@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/arslanefimov/ontologies/2024/9/lab1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/arslanefimov/ontologies/2024/9/lab1">
+    <Prefix name="" IRI="http://www.semanticweb.org/arslanefimov/ontologies/2024/9/lab1"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Pikachu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kratos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pac-Man"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerEndurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fast"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lara_Croft"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerFast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerAgile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#platformer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Sonic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#endurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider_Man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#combat_scills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kirito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rpg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agent-47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arcade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGameGenre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerSmart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#strong"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerCombatScills"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerStrong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shooter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asuna"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Agent-47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Asuna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Kirito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Kratos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Pac-Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Pikachu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Steve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ability"/>
+        <NamedIndividual IRI="#agile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#arcade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ability"/>
+        <NamedIndividual IRI="#combat_scills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ability"/>
+        <NamedIndividual IRI="#endurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ability"/>
+        <NamedIndividual IRI="#fast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#platformer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#rpg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#shooter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ability"/>
+        <NamedIndividual IRI="#smart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ability"/>
+        <NamedIndividual IRI="#strong"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <NamedIndividual IRI="#combat_scills"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <NamedIndividual IRI="#endurance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <NamedIndividual IRI="#smart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <NamedIndividual IRI="#shooter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Asuna"/>
+        <NamedIndividual IRI="#agile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Asuna"/>
+        <NamedIndividual IRI="#combat_scills"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Asuna"/>
+        <NamedIndividual IRI="#rpg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Asuna"/>
+        <NamedIndividual IRI="#female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <NamedIndividual IRI="#combat_scills"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <NamedIndividual IRI="#fast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <NamedIndividual IRI="#strong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <NamedIndividual IRI="#rpg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <NamedIndividual IRI="#combat_scills"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <NamedIndividual IRI="#endurance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <NamedIndividual IRI="#strong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+        <NamedIndividual IRI="#agile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+        <NamedIndividual IRI="#smart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+        <NamedIndividual IRI="#female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Pac-Man"/>
+        <NamedIndividual IRI="#fast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Pac-Man"/>
+        <NamedIndividual IRI="#arcade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Pac-Man"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Pikachu"/>
+        <NamedIndividual IRI="#fast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Pikachu"/>
+        <NamedIndividual IRI="#rpg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Pikachu"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#agile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#combat_scills"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#fast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#smart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+        <NamedIndividual IRI="#endurance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+        <NamedIndividual IRI="#strong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+        <NamedIndividual IRI="#platformer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <NamedIndividual IRI="#agile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <NamedIndividual IRI="#fast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbility"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <NamedIndividual IRI="#strong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGameGenre"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <NamedIndividual IRI="#platformer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <NamedIndividual IRI="#male"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerCombatScills"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerEndurance"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerSmart"/>
+        <NamedIndividual IRI="#Agent-47"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerAgile"/>
+        <NamedIndividual IRI="#Asuna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerCombatScills"/>
+        <NamedIndividual IRI="#Asuna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerCombatScills"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerFast"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerStrong"/>
+        <NamedIndividual IRI="#Kirito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerCombatScills"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerEndurance"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerStrong"/>
+        <NamedIndividual IRI="#Kratos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerAgile"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerSmart"/>
+        <NamedIndividual IRI="#Lara_Croft"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerFast"/>
+        <NamedIndividual IRI="#Pac-Man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerFast"/>
+        <NamedIndividual IRI="#Pikachu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerAgile"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerCombatScills"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerFast"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerSmart"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerEndurance"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerStrong"/>
+        <NamedIndividual IRI="#Super_Mario"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerAgile"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerFast"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerStrong"/>
+        <NamedIndividual IRI="#Super_Sonic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerAgile"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerCombatScills"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerEndurance"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerFast"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerSmart"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerStrong"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerAgile"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerCombatScills"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerEndurance"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerFast"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerSmart"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerStrong"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
